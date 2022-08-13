@@ -1,0 +1,49 @@
+ @import "normalize.css";
+//@import "reset.css";
+
+body {
+  background: linear-gradient(#226A04, #4C8434) fixed;
+  color: rgba(255, 255, 255, 80%);
+}
+
+main {
+  padding-left: 10px;
+}
+
+#content p {
+  width: 800px; /* Ширина блока */
+  padding: 10px; /* Поля */
+  word-wrap: break-word;
+}
+
+#navbar ul {
+  margin: 0;
+  padding: 0;
+  background: rgba(255, 255, 255, 10%);
+}
+
+#navbar li {
+  display: inline-block;
+  padding: 5px;
+}
+
+#navbar li a {
+  display: block;
+  padding: 14px 16px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+#navbar a:hover {
+  background: #226A04;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+#footer a:hover {
+  background: #226A04;
+}
